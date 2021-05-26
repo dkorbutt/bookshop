@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bookshop</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="#home" class="home_button" data-page="home"><li>home</li></a>
+            <a href="#book" class="book_button" data-page="book"><li>books</li></a>
+            <a href="#contact" class="book_button" data-page="contact"><li>contact</li></a>
+        </ul>
+        <div class="line"></div>
+    </nav>
+    <main>
+        <section class="home" id="home" data-index="0">
+            <h1>Find works of your <br>favourite artist in one place!<br></h1>
+            <div class="arrow">
+                <svg width="104" height="188" viewBox="0 0 104 188" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M47.0503 185.95C49.7839 188.683 54.2161 188.683 56.9497 185.95L101.497 141.402C104.231 138.668 104.231 134.236 101.497 131.503C98.7638 128.769 94.3317 128.769 91.598 131.503L52 171.101L12.402 131.503C9.66835 128.769 5.2362 128.769 2.50253 131.503C-0.231143 134.236 -0.231143 138.668 2.50253 141.402L47.0503 185.95ZM45 -3.0598e-07L45 181L59 181L59 3.0598e-07L45 -3.0598e-07Z" fill="white"/>
+                </svg>
+            </div>
+        </section>
+        <section class="book" id="book" data-index="1">
+            <section class="book1 books">
+                <h2>Piekarczyk</h2>
+                <img src="piekarczyk.png" alt="piekarczyk">
+            </section>
+            <section class="book2 books">
+                <h2>Słonina</h2>
+                <img src="slonina.png" alt="slonina">
+            </section>
+            <section class="book3 books">
+                <h2>Jesionka</h2>
+                <img src="jesionka.png" alt="jesionka">
+            </section>
+            <div class="bookbox bookbox-1">
+                <span class="off">X</span>
+                <div class="empty">NOT AVAILABLE YET</div>
+            </div>
+            <div class="bookbox bookbox-2">
+                <span class="off">X</span>
+                <div class="empty">NOT AVAILABLE YET</div>
+            </div>
+            <div class="bookbox bookbox-3">
+                <span class="off">X</span>
+                <div class="bookbox_left">
+                    <div class="title">DRZAZGI</div>
+                    <div class="price">CENA: 45zł</div>
+                    <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor harum adipisci ullam optio sit? Vitae voluptatum doloremque doloribus id! Sit sequi inventore eligendi a nihil illum eos, voluptates iste nostrum, nemo minima placeat ducimus consequatur temporibus quisquam obcaecati enim distinctio.</div>
+                    <div class="cart">
+                        <button>KUP TERAZ</button>
+                    </div>
+                </div>
+                <div class="book_frame">
+                    <img class="drzazgi" src="1.png" alt="img">
+                </div>
+            </div>
+            <div class="arrow2">
+                <svg width="52" height="84" viewBox="0 0 104 188" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M47.0503 185.95C49.7839 188.683 54.2161 188.683 56.9497 185.95L101.497 141.402C104.231 138.668 104.231 134.236 101.497 131.503C98.7638 128.769 94.3317 128.769 91.598 131.503L52 171.101L12.402 131.503C9.66835 128.769 5.2362 128.769 2.50253 131.503C-0.231143 134.236 -0.231143 138.668 2.50253 141.402L47.0503 185.95ZM45 -3.0598e-07L45 181L59 181L59 3.0598e-07L45 -3.0598e-07Z" fill="white"/>
+                </svg>
+            </div>
+        </section>
+        <section class="contact" id="contact" data-index="2">
+            <div class="card">
+                <div class="left"><h2>contact us</h2></div>
+                <ul>
+                    <li>phone: +46-765-5525</li>
+                    <li>mail: random@swed.com</li>
+                    <li>twitter: @randomswed</li>
+                </ul>
+            </div>
+            <div class="twitter">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg><span>dkorbutt</span>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
